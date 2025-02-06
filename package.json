@@ -1,0 +1,27 @@
+{
+  "name": "test-disk",
+  "version": "1.0.0",
+  "description": "Test free space on the disk",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  },
+  "author": "Andrii Svorak",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "22.2.0",
+    "@types/cli-progress": "3.11.6",
+    "typescript": "5.5.4",
+    "cli-progress": "3.12.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "diskusage": "^1.2.0"
+  }
+}
